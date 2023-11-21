@@ -1,0 +1,25 @@
+a{
+    background-color: yellow;
+}
+.nayana{
+    background-color: blue;
+}
+#rahni{
+    background-color: aqua;
+}
+a[target]{
+    background-color: red;
+}
+
+input{
+    background-color: blue;
+}
+
+input[placeholder]{
+    background-color: red;
+}
+
+
+*{
+    font-family:fantasy;
+}
