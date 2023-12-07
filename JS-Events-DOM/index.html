@@ -1,0 +1,19 @@
+<html>
+    <head>
+       
+    </head>
+    <body>
+       <button id="abc" onmouseout="disabled_button()" onmouseover="change_Color()" onclick="change_Button_Name()">Test</button>
+    </body>
+    <script>
+        function change_Color(){
+            document.getElementById('abc').style.backgroundColor='blue'
+        }
+        function change_Button_Name(){
+            document.getElementById('abc').innerHTML ="Demo"
+        }
+        function disabled_button(){
+             document.getElementById('abc').disabled="true"
+        }
+    </script>
+</html>
