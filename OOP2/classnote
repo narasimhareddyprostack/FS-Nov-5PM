@@ -1,0 +1,6 @@
+constructor?
+-special method , to initlize object values.
+-constructor method execute only once,
+automatically at time of object creation.
+
+- We can't invoke constuctor explictly.
